@@ -1,0 +1,163 @@
+.catalog-modal {
+    max-width: 85%;
+    &-close {
+        margin: -0.5rem 5.5rem -0.5rem auto !important;
+        position: relative;
+        &-button {
+            position: absolute;
+            left: -79px;
+            top: 0px;
+            font-size: 20px;
+        }
+    }
+    &-header {
+        border: none;
+    }
+    &-img {
+        width: 412px;
+        height: 447px;
+        transition: 1s; /* Время эффекта */
+        &:hover {
+            transform: scale(1.28); /* Увеличиваем масштаб */
+            // background-image: url(/src/svg/loupe.svg);
+        }
+    }
+    &-bold {
+        font-size: $size_min;
+        font-weight: $bold_big;
+        line-height: $line_min;
+        margin-bottom: 5px;
+    }
+    &-text {
+        font-size: $size_min;
+        line-height: $line_min;
+        margin-bottom: 5px;
+        
+    }
+    
+    &-article {
+        font-weight: $bold_big;
+    }
+
+    &-button {
+        &-mini {
+            width: 60px;
+            height: 60px;
+            background-color: $color_wh;
+            border: 3px solid #F8F8F8;
+            p {
+            font-size: $size_max;
+            font-weight: $bold_min;
+            }
+            &-count {
+                width: 60px;
+                height: 60px;  
+            }
+            &-text {
+                transform:skew(20deg);
+                font-weight: $bold_norm;
+                text-decoration: none;
+                margin-bottom: 0;
+            }
+                
+        }
+    }
+
+    &-order {
+        margin-right: 30px;
+        color: $color_rd;
+        font-size: $size_min;
+        font-weight: $bold_big;
+    }
+    &-guarantee {
+        font-size: $size_min;
+    }
+    &-price {
+    font-weight: $bold_max;
+    color: $color_bl;
+    font-size: $size_norm+3px;
+    line-height: $line_min;
+    margin-bottom: 8px;
+    margin-right: 10px;
+        &-euro {
+            font-weight: $bold_min;
+            font-size: $size_min;
+            line-height: $line_min;
+        }
+   }
+   &-button {
+       background-color: $color_rd;
+       width: 290px;
+       height: 60px;
+       p {
+            transform:skew(20deg);
+            color: $color_wh;
+            font-weight: $bold_big;
+            font-size: $size_min+4px;
+            margin-top: 10px;
+       }
+   }
+   &-list {
+       background-color: $color_wh;
+       border-color: $color_wh;
+       width: 230px;
+       position: relative;
+       
+       p {
+           color: $color_rd;
+           font-size: $size_min+4px;
+           font-weight: $bold_big;
+           
+       }
+        &:focus,&:hover{
+        background-color: $color_wh;
+        border-color: $color_wh;
+        box-shadow: none !important;
+        
+        }
+
+       &-button {
+            position: absolute;
+            transition: 0.1s ease-out;
+            right: 20%;
+            top: 40%;
+          
+       }
+   }
+   &-feature {
+       font-size: $size_min;
+       list-style-type: none;
+       &-border {
+           border-color: $color_wh;
+       }
+   }
+   &-manual {
+       font-size: $size_min+3px;
+       line-height: $line_norm;
+       max-width: 310px;
+       &-pdf {
+           color: #7B7B7B;
+           font-size: $size_min+3px;
+           line-height: $line_norm;
+       }
+   }
+   &-depiction {
+    font-size: $size_min+3px;
+    line-height: $line_norm;
+    max-width: 1130px; 
+   }
+}
+
+.collapsed  {
+    img {
+    transform:rotate(180deg) !important;
+    }
+}
+
+.modal-footer{
+    display: none;
+}
+
+h4 {
+    padding-right: ($spacer * 6) !important;
+}

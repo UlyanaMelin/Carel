@@ -1,0 +1,26 @@
+include mixin
+
+section.service_form
+    img.d-md-block.d-none.service_form-worker(src="../src/image/worker.png", alt="worker")
+    .service_form-stripe
+        img.service_form-stripe-triangle.d-sm-block.d-none(src="../src/svg/triangle.svg" alt="triangle")
+    .container
+        .row.service_form-wrapper
+            .col-sm-7.col-10.d-sm-block.d-flex.justify-content-center.ms-5.ms-sm-0
+                p.
+                    Своевременное сервисное обслуживание исключает
+                    вероятность поломки оборудования и выхода из строя всей
+                    системы увлажнения, что  абсолютно недопустимо в условиях
+                    объектов специального назначения, таких как:
+        .row
+            .col-lg-8.col-md-10.d-md-flex.justify-content-center.d-sm-block
+                ul
+                    +pluses
+        .row.d-sm-block.d-flex.justify-content-center(id="phone")
+            .col-6.service_form-input
+                p.service_form-input-caption Хотите исключить вероятность<br>поломки оборудования?<br>Мы поможем вам в этом!  
+                input.service_form-input-name(type="text" placeholder="Ваше имя")
+                input.service_form-input-phone(type="text"  placeholder="Ваш телефон")
+                button.carel-button.service_form-button
+                    span.carel-button-text.d-flex.justify-content-center.service_form-button-text Отправить заявку
+                p.service_form-input-sing Ваши контактные данные в безопасности и не будут переданы 3-им лицам

@@ -1,0 +1,113 @@
+@import "base";
+
+.service_form {
+    margin-top: 45px;
+    position: relative;
+
+    &-stripe {
+        background: $color_rd;
+        width: 117%;
+        height: 58%;
+        position: absolute;
+        transform: rotate(11deg);
+        top: 59%;
+        left: -7%;
+        z-index: -2;
+        &-triangle {
+            right: -3%;
+            bottom: -10%;
+            height: 205%;
+            width: 54%;
+            position: absolute;
+            transform: rotate(-11deg);
+        }
+    }
+    
+
+    &-input {
+        margin-left: 180px;
+        &-caption {
+            margin-top: 240px;
+            font-size: $size_norm+8px;
+            font-weight: $bold_big;
+            line-height: $line_big;
+            color: $color_wh;
+            
+        }
+        &-sing {
+            margin-top: 20px;
+            font-size: $size_min;
+            color: $color_wh;
+            font-weight: $bold_min;
+        }
+        &-name {
+            background: transparent url(../svg/name.svg) no-repeat left top;
+            margin-top: 50px;
+            width: 500px;
+            background-size: 20px;
+            border: 0;
+            border-bottom: 2px solid $color_wh;
+            padding-bottom: 10px;
+            &::placeholder {
+                background: transparent url(../svg/mark.svg) no-repeat right top;
+                padding-left: 40px;
+                color: $color_wh;
+                font-size: $size_min;
+            }
+        }
+        &-phone {
+            background: transparent url(../svg/phone.svg) no-repeat left top;
+            margin-top: 50px;
+            width: 500px;
+            background-size: 20px;
+            border: 0;
+            border-bottom: 2px solid $color_wh;
+            padding-bottom: 10px;
+            &::placeholder {
+                background: transparent url(../svg/mark.svg) no-repeat right top;
+                padding-left: 40px;
+                color: $color_wh;
+                font-size: $size_min;
+            }
+        }
+    }
+
+    &-wrapper {
+        margin-bottom: 163px;
+    }
+
+    &-list {
+        list-style: none;
+        font-size: $size_norm;
+        margin: 30px 0;
+        
+        &:before{
+            margin-right: 20px;
+            content: '';
+            display: inline-block;
+            height: 20px;
+            width: 20px;
+            background-image: url(/src/svg/squares.svg);
+            background-repeat: no-repeat;
+            background-size: 21px 28px;
+        }
+    }
+    
+    &-worker {
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        z-index: -3;
+    }
+}
+
+.service_form-button {
+    margin-left: 10px;
+    margin-top: 60px;
+    width: 480px;
+    background-color: $color_wh;
+    height: 60px;
+    &-text {
+        color: $color_rd;
+    }
+}

@@ -1,0 +1,35 @@
+.footer {
+    position: relative;
+    margin-top: 300px;
+    &-img {
+        position: absolute;
+        bottom: -4%;
+        right: 0%;
+        z-index: -2;
+    }
+    &-stripe {
+        background: $color_rd;
+        width: 117%;
+        height: 160%;
+        position: absolute;
+        transform: rotate(11deg);
+        top: -14%;
+        left: -8%;
+        z-index: -3;
+    }
+    &-text {
+        font-size: $size_norm+8px;
+        font-weight: $bold_big;
+        line-height: $line_big;
+        color: $color_wh;
+    }
+    &-company {
+        font-size: $size_min;
+        margin-bottom: 0;
+        color: $color_wh;
+        margin-right: 10px;
+        &-indent {
+            margin-top: 180px;
+        }
+    }
+}

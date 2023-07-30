@@ -1,0 +1,1259 @@
+@media (max-width: 1760px) {
+    .header-wrapper-backdrop {
+        width: 48%;
+        top: 29%;
+        left: 9%; 
+    }
+    .header-top-logo {
+        margin-left: 5%;
+    }
+    .service-corner {
+        top: -17%;
+    }
+    .catalog-triangle {
+        right: -3%;
+    }
+    .spare_parts-rect {
+        left: -8%;
+    }
+    .footer-img {
+        bottom: -5%;
+        right: -4%;
+    }
+
+}
+
+@media (max-width: 1600px) {
+    .header-wrapper-backdrop {
+        width: 52%;
+        top: 35%;
+        left: 6%;
+    }
+    .header-top-logo {
+        margin-left: 8%;
+    }
+    .header-size-stripe {
+        bottom: -21%;
+    }
+    .service-wrapper-pack{
+        margin-top: 15%;
+    }
+    .service_form-worker {
+        right: -10%;
+    }
+    .service-corner {
+        top: -19%;
+    }
+    .catalog-triangle {
+        right: -5%;
+    }
+    .spare_parts-rect {
+        left: -14%;
+    }
+    .footer-img {
+        bottom: -6%;
+        right: -12%;
+    }
+   
+   }
+
+@media (max-width: 1500px) {
+    .header-wrapper-backdrop {
+        width: 56%;
+        top: 36%;
+        left: 4%;
+    }
+    .header-size-stripe {
+        bottom: -22%;
+        height: 11%;
+    }
+    .header-top-logo {
+        margin-left: 11%;
+    }
+    .service_form-worker {
+        right: -15%;
+    }
+    .catalog-triangle {
+        right: -12%;
+    }
+    .spare_parts-rect {
+        left: -19%;
+    }
+    .footer-img {
+        bottom: -8%;
+        right: -17%;
+    }
+   
+}
+
+@media (max-width: 1400px) {
+    .header-rect {
+        width: 76%;
+    }
+    .header-wrapper{
+        margin-top: 5%;
+    }
+    .header-nom {
+        font-size: 1rem;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 2.5rem;
+    }
+    p {
+        font-size: 1.1rem;
+        line-height: 25px;
+    }
+    .header-wrapper-text-list-link {
+        font-size: 3rem;
+        
+    }
+    .header-button {
+        margin-top: 33px;
+        width: 342px;
+        height: 75px;
+    }
+    .service-wrapper-part-desc {
+        font-size: 1.6rem;
+        height: 245px;
+    }
+    .service-stripe {
+        height: 25%;
+    }
+    .service_form-input-caption {
+        font-size: 1.7rem;
+    }
+    .service-wrapper-part-desc-nom_2 {
+        bottom: 64%;
+    }
+    .service-wrapper-part-desc-nom_3 {
+        bottom: 28%;
+    }
+    .service_form-stripe {
+        height: 54%;
+    }
+    .spare_parts {
+        margin-top: 300px;
+    }
+    .spare_parts-wrapper {
+        margin-top: 135px;
+    }
+    .catalog {
+        margin-top: 130px;
+    }
+    .catalog-button {
+        margin-top: 7px;
+        width: 352px;
+    }
+    .catalog-text {
+        font-size: 1.9rem;
+        &-subtext {
+            font-size: 1.9rem;  
+        }
+        &-logo {
+            font-size: 6rem;
+        }
+    }
+    .catalog-model {
+        width: 232px;
+    }
+    .catalog-card-button {
+        width: 100px;
+        height: 31px;
+    }
+    .catalog-card-price {
+        font-size: 1rem;
+        line-height: 14px;
+    }
+    .reviews {
+        margin-top: 8%;
+    }
+    h4 {
+        font-size: 1.8rem;
+    }
+    .owl-theme .owl-nav {
+        top: -9vw;
+    }
+    .reviews-stripe {
+        height: 125%;
+    }
+    .footer {
+        margin-top: 11%;
+        &-stripe {
+            left: -10%;
+        }
+        &-text {
+            font-size: 1.7rem;
+        }
+        &-img{
+            bottom: -16%;
+            right: -20%;
+            width: 80%;
+            height: 163%;
+        }
+    }
+    .footer-company-indent {
+        margin-top: 20%;
+    }
+}
+@media (max-width: 1200px) {
+    html {
+        font-size: 13px;
+    }
+    .header-rect {
+        width: 81%;
+    }
+    .header-button {
+        margin-top: 8px;
+        width: 290px;
+        height: 63px;
+    }
+    .header-size-stripe {
+        bottom: -20%;
+    }
+    .service-wrapper {
+        margin-top: 11%;
+    }
+    .service-corner {
+        top: -15%;
+    }
+    .service-stripe {
+        height: 19%;
+        top: 78%;
+    }
+    .service-wrapper-part-desc-nom_1 {
+        font-size: 4rem;
+        left: 11%;
+        bottom: 85%;
+    }
+    .service-wrapper-part-desc-nom_2 {
+        font-size: 4rem;
+        bottom: 55%;
+    }
+    .service-wrapper-part-desc-nom_3 {
+        font-size: 4rem;
+        right: 29%;
+        bottom: 23%;
+    }
+    .service-wrapper-part {
+        margin-top: 7%;
+    }
+    .service-wrapper-part-desc {
+        height: 164px;
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+    .service_form {
+        margin-top: 1%;
+        &-wrapper{
+        margin-bottom: 9%;
+        }
+    }
+    .service_form-worker {
+        right: -32%;
+        top: -5%;
+    }
+    .service_form-list {
+        font-size: 1.4rem;
+        margin: 5% 0;
+    }
+    .service_form-input-name {
+        width: 77%;
+    }
+    .service_form-input-phone {
+        width: 77%;
+        margin-top: 8%;
+    }
+    .service_form-input-caption {
+        line-height: 2.3rem;
+        margin-top: 19%;
+    }
+    .service_form-button {
+        width: 72%;
+    }
+    .service_form-input-sing {
+        font-size: 0.8rem;
+    }
+    .spare_parts-rect {
+        left: -34%;
+        z-index: -3;
+    }
+    .carel-button-text {
+        font-size: 1.6rem;
+    }
+    .service_form-stripe {
+        height: 49%;
+    }
+    .spare_parts {
+        margin-top: 15%;
+    }
+    .catalog-button {
+        width: 26vw;
+        height: 6vw;
+        &-text {
+            font-size: 1.4rem;
+        }
+    }
+    .spare_parts-wrapper-stripe-text-icon_1 {
+        width: 4vw;
+        left: -62px;
+    }
+    .spare_parts-wrapper-stripe-text-icon_2 {
+        width: 4vw;
+        left: -62px;
+    }
+    .spare_parts-wrapper-stripe-text-icon_3 {
+        width: 4vw;
+        left: -62px;
+    }
+    .catalog-model {
+        width: 17vw;
+        height: 5vw;
+        &-title {
+            font-size: 1.4rem;
+        }
+        &-text {
+            font-size: 1.4rem;
+        }
+    }
+    .catalog-nav-style {
+        max-width: 19vw;
+        font-size: 1.4rem;
+    }
+    .catalog-stripe {
+        height: 664px;
+    }
+    .catalog-button-style.active:after {
+        bottom: -52%;
+    }
+    .catalog-card-price {
+        font-size: 1.3rem;
+        margin-right: 14%;
+        margin-bottom: 7%;
+    }
+    .catalog-card-text {
+        font-size: 0.9rem;
+        line-height: 1.2rem;
+    }
+    .catalog-modal-img {
+        width: 28vw;
+        height: 29vw;
+    }
+    .catalog-modal-button {
+        width: 21vw;
+        height: 5vw;
+    }
+    .catalog-modal-text {
+        font-size: 1rem;
+        width: 40vw;
+    }
+}
+
+@media (max-width: 992px) {
+    .header-wrapper-text-list-link {
+        font-size: 2.4rem;
+        line-height: 2.4rem;
+        margin: 8% 0;
+    }
+    .header-wrapper-text-list-points {
+        width: 4vw;
+    }
+    .header-rect {
+        width: 93%;
+        top: -87px;
+        right: -300px;
+    }
+    .service-corner {
+        top: -19%;
+    }
+    h1 {
+        line-height: 2.5rem;
+    }
+    .header-button {
+        width: 25vw;
+    }
+    .service-stripe {
+        top: 77%;
+    }
+    .service-wrapper-part-desc-nom_1 {
+        font-size: 3.5rem;
+        left: 9%;
+    }
+    .service-wrapper-part-desc-nom_2 {
+        font-size: 3.5rem;
+        bottom: 61%;
+    }
+    .service-wrapper-part-desc-nom_3 {
+        font-size: 3.5rem;
+        right: 28%;
+        bottom: 21%;
+    }
+    .service_form-input {
+        margin-left: 0%;
+        &-name {
+            margin-top: 7%;
+        }
+        &-caption{
+            line-height: 2rem;
+        }
+    }
+    .service_form-worker {
+        right: -49%;
+        top: -7%;
+    }
+    h2 {
+        line-height: 3rem;
+        font-size: 2.2rem;
+    }
+    .catalog-button {
+        width: 22vw;
+        &-text{
+            font-size: 1.2rem;
+            line-height: 1.5rem;
+        }
+    }
+    .catalog-button-style.active:after {
+        left: 44%;
+    }
+    .catalog-text {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        &-logo{
+            margin-top: 42%;
+        }
+        &-definition {
+            font-size: 1.3rem;
+        }
+    }
+    .catalog-nav-style {
+        font-size: 1.2rem;
+    }
+    .catalog-stripe {
+        height: 615px;
+    }
+    .catalog-model {
+        width: 14.6vw;
+        height: 4.7vw;
+    }
+    .catalog-card {
+        width: 102% !important;
+    }
+    .card-title {
+        margin-bottom: 0.8rem;
+    }
+    .reviews-stripe {
+        height: 115%;
+    }
+    .footer-img {
+        width: 90%;
+        bottom: -13%;
+        right: -27%;
+    }
+    .footer-company-indent {
+        margin-top: 14%;
+    }
+    h4 {
+        padding-right: 0 !important;
+        font-size: 1.7rem;
+        line-height: 2.4rem;
+    }
+    .catalog-modal-text {
+        width: 60vw;
+    }
+}
+
+@media (max-width: 830px) {
+    html{
+        font-size: 12px;
+    }
+    p {
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+    .service-stripe {
+        top: 75%;
+    }
+    .service_form-worker {
+        right: -60%;
+        top: -11%;
+    }
+    .spare_parts-stripe {
+        height: 38%;
+    }
+    .catalog-button {
+        width: 27vw;
+    }
+    .catalog-text-definition {
+        font-size: 1.1rem;
+
+    }
+    .catalog-text-logo {
+        margin-top: 35%;
+    }
+    .catalog-text-subtext {
+        margin-bottom: 4%;
+    }
+    .catalog-model {
+        width: 17.6vw;
+    }
+    .catalog-text-model-text {
+        font-size: 1.1rem;
+    }
+    .catalog-card-button-text {
+        margin-bottom: 0%;
+    }
+    .catalog-button-style.active:after {
+        bottom: -64%;
+    }
+}
+
+@media (max-width: 768px) {
+    html{
+        font-size: 11px;
+    }
+    .header-top-logo {
+        width: 27%;
+        margin-left: 1%;
+    }
+    .header-rect {
+        width: 105%;
+    }
+    .service-wrapper-part-desc {
+        height: 120px;
+        font-size: 1.1rem;
+        line-height: 1.3rem;
+    }
+    .service_form-worker {
+        right: -80%;
+    }
+    p {
+        font-weight: 600;
+    }
+    .service_form-input-name {
+        width: 100%;
+        height: 8%;
+        padding-top: 4%;
+    }
+    .service_form-input-phone {
+        width: 100%;
+        height: 8%;
+        padding-top: 4%;
+    }
+    .service_form-button {
+        width: 92%;
+        margin-top: 15%;
+        height: 12%;
+    }
+    .catalog-button {
+        width: 22vw;
+    }
+    .catalog-model {
+        width: 14.5vw;
+    }
+    .catalog-stripe {
+        height: 522px;
+    }
+    .catalog-nav-style.active:after {
+        top: 33px;
+        width: 2vw;
+        height: 1.8vw;
+    }
+    .row-cols-1 > * {
+        width: 50%;
+    }
+    .catalog-card {
+        width: 75% !important;
+    }
+    .tree:nth-child(n+5) {
+        display: none;
+    }
+    .catalog-text-model-text {
+        margin-bottom: 10%;
+    }
+    .owl-theme .owl-nav {
+        top: -13vw;
+    }
+    .reviews-top {
+        margin-top: 1% !important;
+    }
+    .service_form-button {
+        height: 9%;
+    }
+    .footer-company {
+        font-size: 1rem;
+    }
+    .footer-logo{
+        width: 11vw;
+    }
+    .footer-company {
+        font-size: 0.8rem;
+    }
+    .footer-text {
+        line-height: 2.5rem;
+    }
+    .footer-info{
+        position: relative;
+        top:10%;
+        right: 0%;
+    }
+    .footer-info {
+        position: relative;
+        top: -20%;
+        right: -137%;
+    }
+    .carel-button-text {
+        font-size: 1.3rem;
+    }
+    .catalog-modal-button-mini p {
+        font-size: 1.5rem;
+    }
+    .catalog-modal-button-mini {
+        width: 5vw;
+        height: 5vw;
+    }
+    .catalog-modal-button-mini-count {
+        width: 5vw;
+        height: 5vw;
+    }
+    .catalog-modal-depiction {
+        font-size: 1.3rem;
+        line-height: 1.8rem;
+    }
+    .catalog-modal-manual {
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+    }
+    .catalog-modal-manual-pdf {
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+    .catalog-modal-feature {
+        font-size: 1.2rem;
+    }
+    .catalog-modal-list p {
+        font-size: 1.5rem;
+    }
+    .catalog-modal-list-button {
+        right: 29%;
+    }
+    .catalog-modal-price {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 666px) {
+    .header-wrapper-text-list-points {
+        width: 4.5vw;
+    }
+    .header-button {
+        height: 6vw;
+    }
+    .header-top-logo {
+        width: 20%;
+        margin-left: 7%;
+    }
+    .header-rect {
+        width: 111%;
+    }
+    .service_form-list {
+        margin: 2% 0;
+    }
+    .service_form-wrapper {
+        margin-bottom: 2%;
+    }
+    
+    .service_form-input-caption {
+        font-size: 1.3rem;
+        line-height: 1.7rem;
+    }
+    .service_form-button {
+        height: 12%;
+        margin-top: 10%;
+    }
+    .catalog-button {
+        width: 26vw;
+    }
+    .catalog-nav-style {
+        font-size: 1.1rem;
+    }
+    .catalog-stripe {
+        height: 509px;
+    }
+    .catalog-text-subtext {
+        font-size: 1.4rem;
+    }
+    .catalog-text {
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+    }
+    .catalog-text-model {
+        margin-top: 13px;
+    }
+    .catalog-model {
+        width: 16.5vw;
+    }
+    .catalog-model-title {
+        font-size: 1rem;
+        padding-right: 4px;
+    }
+    .catalog-model-text {
+        font-size: 1rem;
+    }
+    .catalog-button-text {
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+    h2 {
+        line-height: 2.3rem;
+        font-size: 1.7rem;
+    }
+    .service-wrapper {
+        margin-top: 15%;
+    }
+    .spare_parts-wrapper-stripe-text-icon_1 {
+        width: 5vw;
+        left: -46px;
+    }
+    .spare_parts-wrapper-stripe-text-icon_2 {
+        width: 5vw;
+        left: -46px;
+    }
+    .spare_parts-wrapper-stripe-text-icon_3 {
+        width: 5vw;
+        left: -46px;
+    }
+
+}
+
+@media (max-width: 576px) {
+    h1 {
+        line-height: 1.7rem;
+        font-size: 1.3rem;
+    }
+    .header-wrapper-text-list-link {
+        margin: 4% 0;
+    }
+    .header-size-stripe {
+        height: 8%;
+        bottom: -18%;
+        transform: rotate(0deg);
+    }
+    .service-wrapper-pack {
+        margin-top: 4%;
+    }
+    .service-wrapper {
+        margin-top: 17%;
+    } 
+    .service-wrapper-part-desc {
+        height: 0%;
+    }
+    .service-stripe {
+        height: 30%;
+        transform: rotate(0deg);
+        top: 70%;
+    }
+    .service-wrapper-part-desc-nom_1 {
+        left: 11%;
+        bottom: 66%;
+    }
+    .service-wrapper-part-desc-nom_2 {
+        left: 36%;
+        bottom: 67%;
+    }
+    .service-wrapper-part-desc-nom_3 {
+        left: 69%;
+        bottom: 70%;
+    }
+    .service_form {
+        margin-top: 11%;
+    }
+    .service_form-list:before {
+        margin-right: 1px;
+        height: 5vw;
+        width: 5vw;
+        background-size: 14px 39px;
+    }
+    .service_form-list {
+        margin: 0% 0;
+    }
+    .service_form-stripe {
+        transform: rotate(0deg);
+    }
+    .header-wrapper-text-list-points {
+        display: none;
+    }
+    .header-rect {
+        top: -78px; 
+        height: 155%;
+        width: 119%;
+    } 
+    .header-wrapper-text {
+        margin-right: 6%;
+    }
+    .header-nom {
+        margin-right: 20%;
+    }
+    .header-line {
+        margin-right: 20%; 
+    }
+    .header-wrapper-text-list-link {
+        font-size: 1.5rem;
+    }
+    .service_form-input-name {
+        width: 87%;
+        height: 10%;
+    }
+    .service_form-input-phone {
+        width: 87%;
+        height: 10%;
+    }
+    .service_form-button {
+        height: 10%;
+        margin-top: 6%;
+        width: 81%;
+    }
+    .service_form-input-caption {
+        font-size: 1.2rem;
+    }
+    .service_form-input-caption {
+        margin-top: 10%;
+    }
+    .service_form-input {
+        margin-left: 5%;
+    }
+    .spare_parts {
+        margin-top: 4%;
+    }
+    .spare_parts-wrapper {
+        margin-top: 40px;
+    }
+    .spare_parts-stripe {
+        top: 64%;
+        transform: rotate(0deg)
+    }
+    .spare_parts-wrapper-stripe-text {
+        transform: rotate(0deg);
+    }
+    .spare_parts-wrapper-stripe {
+        transform: rotate(0deg);
+    }
+    .service_form-stripe {
+        top: 50%;
+    }
+    .spare_parts-wrapper-stripe-text-icon_1 {
+        left: -35px;
+    }
+    .spare_parts-wrapper-stripe-text-icon_2 {
+        left: -35px;
+    }
+    .spare_parts-wrapper-stripe-text-icon_3 {
+        left: -35px;
+    }
+    .catalog {
+        margin-top: 49px;
+    }
+    .catalog-button {
+        width: 30vw;
+        height: 7vw;
+    }
+    .catalog-button-style.active:after {
+        bottom: -92%;
+    }
+    .catalog-nav-style {
+        font-size: 1rem;
+    }
+    .catalog-nav-style {
+        max-width: 30vw;
+    }
+    .catalog-model {
+        width: 19.5vw;
+    }
+    .catalog-text-logo {
+        font-size: 4rem;
+    }
+    .reviews-stripe {
+        height: 102%;
+        top: -4%;
+        transform: rotate(0deg);
+        left: -14%;
+    }
+    .owl-theme .owl-nav {
+        top: -22vw;
+    }
+    img, svg {
+        width: 3vw;
+    }
+    .footer-stripe {
+        width: 118%;
+        height: 137%;
+        transform: rotate(0deg);
+        top: -30%;
+    }
+    .footer-text {
+        font-size: 1.1rem;
+        line-height: 1.8rem;
+    }
+    .modal {
+        left: 40px;
+    }
+    .catalog-modal-close-button {
+        top: 4px;
+        position: absolute;
+        left: -240%;
+        top: 26%;
+        font-size: 1.2rem;
+    }
+    .catalog-modal-button p {
+        margin-top: 6%;
+        font-size: 1.1rem;
+    }
+    .modal {
+        left: 7%;
+    }
+    .catalog-modal-list p {
+        font-size: 1.3rem;
+    }
+    .catalog-modal-list-button {
+        right: 39%;
+    }
+   
+}
+
+@media (max-width: 440px) {
+    .header-top-logo {
+        width: 85%;
+        margin-left: 0;
+        margin-bottom: 5%;
+    }
+    .header-adaptive{
+        display: flex !important;
+        align-self: end;
+        width: 48%;
+    }
+    .header-nom {
+        margin-right: 0;
+        text-align: center;
+        
+    }
+    .header-line {
+        margin-right: 0;
+        text-align: center;
+    }
+    .header-top{
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center;
+    }
+    .header-wrapper-backdrop {
+        width: 86%;
+        top: 27%;
+        left: 5%;
+    }
+    .service-wrapper {
+        margin-top: 26%;
+    }
+    h1 {
+        display: flex;
+        flex-direction: column;
+        line-height: 2.4rem;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .header-wrapper-text-list-link {
+        font-size: 2rem;
+    }
+    .header-button {
+        width: 44vw;
+        height: 9vw;
+    }
+    .header-size-stripe {
+        height: 5%;
+        bottom: -11%;
+    }
+    
+    .header-wrapper{
+        display: flex;
+        justify-content: center !important;
+        margin-top: 60%;
+    }
+    .header-wrapper-text {
+        text-align: center;
+        margin-right: 0;
+        width: 78vw;
+    }
+    .header-wrapper-adaptive{
+        align-items: center !important;
+        justify-content: center !important;
+    }
+    .service-stripe {
+        height: 50%;
+        top: 47%;
+    }
+    .service-wrapper-part{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 7%;
+    }
+    .service_form {
+        margin-top: 2%;
+    }
+    .service-wrapper-part-desc {
+        width: 100%;
+        font-size: 1.4rem;
+        line-height: 1.5rem;
+        margin-bottom: 20%;
+        padding-left: 10%;
+    }
+    .service-adaptive-desc{
+        width: 50vw;
+
+    }
+    .service_form-input {
+        margin-left: 0; 
+        width: 65vw;
+    }
+    .service-wrapper-part-desc-nom_1 {
+        left: 23%;
+        bottom: 85%;
+    }
+    .service-wrapper-part-desc-nom_2 {
+        left: 23%;
+        bottom: 50%;
+    }
+    .service-wrapper-part-desc-nom_3 {
+        left: 23%;
+        bottom: 15%;
+    }
+    .service_form-list:before {
+        height: 8vw;
+    }
+    .service_form-input-caption {
+        margin-top: 10%;
+    }
+    .service_form-stripe {
+        top: 51%;
+    }
+    .service_form-input-name {
+        width: 97%;
+        height: 11%;
+    }
+    .service_form-input-phone {
+        width: 97%;
+        height: 11%;
+    }
+    .spare_parts {
+        margin-top: 6%;
+    }
+    .catalog {
+        margin-top: 43px;
+    }
+    .spare_parts-wrapper-stripe{
+        flex-direction: column;
+        align-items: center;
+    }
+    .spare_parts-wrapper-stripe-text{
+        text-align: left;
+        width: 36vw;
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    .spare_parts-stripe {
+        height: 58%;
+        top: 48%;
+    }
+    .spare_parts-wrapper-stripe-text-icon_1 {
+        left: -42px;
+        top: 16%;
+        width: 7vw;
+    }
+    .spare_parts-wrapper-stripe-text-icon_2 {
+        left: -42px;
+        top: 11%;
+        width: 7vw;
+    }
+    .spare_parts-wrapper-stripe-text-icon_3 {
+        left: -44px;
+        top: 23%;
+        width: 8vw;
+    }
+    #pills-tab{
+        margin-top: 2% !important;
+    }
+    #v-pills-tab{
+        display: none;
+    }
+    .catalog-button {
+        margin-left: -6%;
+        width: 109vw;
+        height: 14vw;
+    }
+    h2 {
+        line-height: 2.3rem;
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    .catalog-button-text {
+        font-size: 1.4rem;
+    }
+    .catalog-button-style.active:after {
+        display: none;
+    }
+    .adaptive-catalog {
+        justify-content: center !important;
+    }
+    .catalog-text {
+        display: none;
+    }
+    .catalog-text-logo {
+        display: none !important;
+    }
+    .catalog-text-subtext {
+        display: none;
+    }
+    .catalog-text-sign {
+        font-size: 1.4rem;
+        text-align: center;
+        width: 60vw;
+    }
+    .catalog-model {
+        width: 62.5vw;
+        height: 8vw;
+        margin-bottom: 4%;
+        transform: rotate(0deg);
+    }
+    .catalog-model-title{
+        transform: rotate(0deg);
+        font-size: 1.4rem;
+    }
+    .catalog-model-text{
+        transform: rotate(0deg);
+        font-size: 1.4rem;
+    }
+    .catalog-card-text{
+        display: none;
+    }
+    .adaptive-price{
+        flex-direction: column;
+        margin-bottom: 5%;
+    }
+    .adaptive-footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0 !important;
+    }
+    .footer {
+        margin-top: 4%;
+    }
+    .adaptive-footer-size{
+        width: 63vw;
+    }
+    .footer-info{
+        display: block;
+        top: 0;
+        right: 0;
+    }
+    .footer-logo {
+        width: 18vw;
+    }
+    .service_form-button {
+        height: 9vw;
+        width: 54vw;
+    }
+    .catalog-modal-close {
+        margin: -0.5rem 3.5rem -0.5rem auto !important;
+    }
+    .adaptive-modal-price{
+        display: flex;
+        flex-direction: column;
+    }
+    .catalog-modal-button-mini {
+        width: 8vw;
+        height: 8vw;
+    }
+    .catalog-modal-button-mini-count {
+        width: 8vw;
+        height: 8vw;
+    }
+    .catalog-modal-button-mini p {
+        font-size: 2rem;
+    }
+    .adaptive-modal-price-order{
+        width: 60vw;
+    }
+    .catalog-modal-button {
+        width: 31vw;
+        height: 7vw;
+    }
+    h3{
+        font-size: 1.3rem;
+    }
+    .catalog-card-button {
+        width: 22vw;
+        height: 8vw;
+    }
+    .catalog-card-button-text {
+        font-size: 1rem;
+    }
+
+}
+
+@media (max-width: 340px) {
+    h3{
+       font-size: 1.3rem;
+    }
+    .catalog-card-button {
+        width: 23vw;
+        height: 8vw;
+        margin-right: 0px;
+        margin-left: 6%;
+    }
+    .catalog-card-button-text {
+        font-size: 1rem;
+    }
+    .catalog-modal-feature {
+        font-size: 0.7rem;
+        font-weight: $bold_big;
+    }
+    h4{
+        font-size: 1.2rem;
+    }
+    .catalog-modal-depiction {
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+    .catalog-modal-manual {
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+    .catalog-modal-bold {
+        font-size: 1rem;
+        font-weight: $bold_max;
+    }
+    .catalog-modal-text {
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+    .catalog-modal-img {
+        width: 49vw;
+        height: 52vw;
+    }
+    .adaptive-modal-price-doc{
+        margin-left: 0 !important;
+    }
+    .adaptive-modal-price-desc{
+        padding-left: 6% !important;
+    }
+    .catalog-modal-close {
+        margin: -0.5rem 1.5rem -0.5rem auto !important;
+    }
+    .service_form-stripe {
+        top: 53%;
+        height: 46%;
+    }
+}

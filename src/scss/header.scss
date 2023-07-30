@@ -1,0 +1,114 @@
+@import "base";
+
+.header {
+	position: relative;
+    
+    &-corner {
+        content: '';
+        position: absolute;
+        left: -3%;
+        top: -2%;
+        border: 15vw solid transparent;
+        border-left: 2vw solid $color_rd;
+        border-top: 42vw solid $color_rd;
+        z-index: -2;
+        
+    }
+    &-rect {
+        content: '';
+        width: 72%;
+        position: absolute;
+        height: 166%;
+        right: -268px;
+        top: -136px;
+        z-index: -1;
+        opacity: .9;
+        
+    }
+    &-top {
+        padding-top: 40px;
+        
+        &-logo {
+            width: 20%;
+        }
+    }
+    	
+    &-nom {
+        text-decoration:none;
+        font-size: $size_norm;
+        text-align: right;
+        margin-bottom: 0.1rem;
+        font-weight: $bold_max;
+        color: $color_bl;
+        
+    }
+    
+    &-line {
+        text-align: right;
+        color: $color_bl;
+    }
+    
+    &-wrapper {
+        margin-top: 90px;
+
+        &-text {
+            text-align: right;
+            
+            &-list {
+                &-link {
+                    margin: 20px 0;
+                    position: relative;
+                    font-size: $size_max+4px;
+                    font-weight: $bold_max;
+                    line-height: $line_big+8px;
+                    color: $color_bl;
+                    list-style: none; 
+                    &-points {
+                        left: 206%;
+                        top: 2vw;
+                        margin-right: 0px;
+                        display: inline-block;
+                        height: 30px;
+                        width: 30px;
+                        background-image: url(./src/svg/squares.svg);
+                        background-repeat: no-repeat;
+                        background-size: 28px 36px;
+                    }
+                }
+            }
+        }
+        &-backdrop {
+            position: absolute;
+            z-index: -3;
+            width: 47%;
+            top: 27%;
+            left: 9%;
+        }
+    }
+    
+    &-button {
+        margin-top: 40px;
+        width: 357px;
+        height: 100px;
+        background: $color_rd;
+        &-text {
+            color: $color_wh;
+        }
+    }
+    &-size {
+        width: 95%;
+        position: relative;
+        &-stripe {
+            background: $color_rd;
+            width: 116%;
+            height: 70px;
+            position: absolute;
+            transform: rotate(11deg);
+            bottom: -20%;
+            left: -3%;
+        }
+    }
+}
+
+
+

@@ -1,0 +1,23 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel='stylesheet' href='main.css')
+        title Carel
+    body
+        include header.pug
+        main 
+            include service.pug
+            include service_form.pug
+            include spare_parts.pug
+            include catalog.pug
+            include modal.pug
+            include reviews.pug
+            div.triangle( id="myBtn")
+                img(src="/src/image/arrow.png")
+        include footer.pug
+            
+
+            

@@ -1,0 +1,83 @@
+.modal.fade(id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true")
+    .catalog-modal.modal-dialog(role="document")
+        .modal-content
+            .modal-header.catalog-modal-header.mt-3
+                button.btn-close.catalog-modal-close(type="button"  data-bs-dismiss="modal" aria-label="Close")
+                    p.catalog-modal-close-button Закрыть
+            .modal-body
+                .row
+                    .d-flex.flex-column.flex-lg-row.align-items-center.align-items-start
+                        .col-lg-5.col-10.d-flex.justify-content-center
+                            img.catalog-modal-img(src="/src/image/catalog_UE001.png" alt="001")
+                        .col-lg-7.col-10
+                            h4.mt-lg-0.mt-3 UE001YD001 Паровой увлажнитель CAREL humiSteam Basic 1,5 кг/ч
+                            p.catalog-modal-bold Описание
+                            p.catalog-modal-text UE001YD001 Паровой увлажнитель CAREL humiSteam Basic 1,5 кг/ч, 1x230В, неразборный<br>цилиндр
+                            p.catalog-modal-bold Description
+                            p.catalog-modal-text humiSteam Basic 1.5 kg/h, 230 V single phase, ON/OFF or proportional, disposable cylinder
+                            .d-flex.justify-content-between.mt-sm-5.mt-0.adaptive-modal-price
+                                .d-flex.flex-column.justify-content-between.col-5
+                                    p.catalog-modal-article Арт. UE001YD001
+                                    .d-flex.justify-content-start.mt-sm-5.mt-0
+                                        button.carel-button.catalog-modal-button-mini
+                                            p.catalog-modal-button-mini-text -
+                                        button.carel-button.catalog-modal-button-mini-count
+                                            p.catalog-modal-button-mini-text 1
+                                        button.carel-button.catalog-modal-button-mini
+                                            p.catalog-modal-button-mini-text +
+                                .d-flex.flex-column.justify-content-between.col-7.adaptive-modal-price-order
+                                    .d-flex.mt-4.mt-sm-0
+                                        p.catalog-modal-order Под заказ
+                                        p.catalog-modal-guarantee Гарантия 24 месяца
+                                    .d-flex
+                                        p.catalog-modal-price 66 021 руб.
+                                        p.catalog-modal-price-euro (€ 904 )
+                                    button.carel-button.catalog-modal-button
+                                        p Заказать
+                .row.d-flex.justify-content-center.mt-5.mt-lg-0.flex-column.flex-md-row.ms-4.ms-md-0.adaptive-modal-price-doc
+                    .col-10.col-md-4.d-flex.flex-column
+                        button.d-flex.btn.btn-primary.catalog-modal-list.mt-lg-5.collapsed(type="button" data-bs-toggle="collapse" data-bs-target="#doc" aria-expanded="true" aria-controls="doc")
+                            p.mb-0  Документация
+                            img.catalog-modal-list-button(src="/src/svg/list.svg")
+                        .collapse(id="doc")
+                            .card.card-body.catalog-modal-feature-border
+                                p.catalog-modal-manual CAREL | Руководство по эксплуатации | Увлажнители воздуха humiSteam Basic | RU
+                                p.catalog-modal-manual-pdf (PDF, 5.66 МБ)
+                                p.catalog-modal-manual CAREL | Сертификат соответствия | Увлажнители воздуха humiSteam UE | 17.09.2020
+                                p.catalog-modal-manual-pdf (PDF, 795.55 КБ)
+                    .col-10.col-md-6.d-flex.flex-column.me-md-5.me-0.mt-4.mt-md-0
+                        button.d-flex.btn.btn-primary.catalog-modal-list.collapsed(type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="true" aria-controls="collapseExample")
+                            p.mb-0 Характеристики
+                            img.catalog-modal-list-button(src="/src/svg/list.svg")
+                        .collapse(id="collapseExample")
+                            .card.card-body.catalog-modal-feature-border
+                                .d-flex
+                                        .d-flex.flex-column
+                                            ul.ps-0
+                                                +feature
+                                        .d-flex.flex-column 
+                                            ul 
+                                                +value  
+                .row 
+                    .col-11.col-lg-12.ps-lg-5.ps-5.mt-4.mt-md-0.adaptive-modal-price-desc
+                        button.d-flex.btn.btn-primary.catalog-modal-list.collapsed(type="button" data-bs-toggle="collapse" data-bs-target="#depiction" aria-expanded="true" aria-controls="depiction")
+                            p.mb-0 Описание серии
+                            img.catalog-modal-list-button(src="/src/svg/list.svg")
+                        .collapse(id="depiction")
+                            .card.card-body.catalog-modal-feature-border
+                                p.catalog-modal-depiction.
+                                    В основе работы увлажнителей с погружными электродами лежит простой физический закон. Обычная питьевая вода содержит некоторое количество
+                                    растворенных минеральных солей, а значит, имеет определенную электропроводность. Если подать напряжение на погруженные в воду электроды, получится
+                                    электрический ток, который нагревает воду до кипения (эффект Джоуля), и в процессе кипения выделяется пар.
+                                p.catalog-modal-depiction.
+                                    humiSteam - это универсальные увлажнители, пригодные для решения широкого круга задач по увлажнению воздуха от обычных жилых домов до
+                                    производственных помещений и даже саун. Воздух может увлажняться непосредственно в помещении при помощи вентиляторного парораспределителя или в
+                                    системе воздуховодов при помощи высокоэффективных линейных парораспределителей. Увлажнители humiSteam работают на водопроводной воде.
+                                p.catalog-modal-depiction.
+                                    Есть следующие разновидности «электродных» увлажнителей HumiSteam:<br>
+                                    – Basic, самый простой вариант для решения любых задач по увлажнению воздуха паром. В основном используется в связке с другим увлажнителем HumiSteam типа X-Plus по принципу Ведущий/Ведомый;<br>
+                                    – X-Plus, мощный увлажнитель с погружными электродами. Комплектуется встроенным контроллером типа «X» серии pCO, жидкокристаллическим дисплеем и кнопками для управления и настройки параметров;<br>
+                                    – Wellness, специальный вариант парового увлажнения воздуха для саун. Имея принцип работы, как у модели «Xplus», увлажнитель humiSteam Wellness поддерживает встроенные функции управления специально для саун.
+
+            .modal-footer.pb-0
+

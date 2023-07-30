@@ -1,0 +1,30 @@
+.reviews {
+    margin-top: 160px;
+    position: relative;
+    &-stripe {
+        background: $color_gr;
+        width: 177%;
+        height: 137%;
+        position: absolute;
+        transform: rotate(11deg);
+        top: 14%;
+        left: -7%;
+        z-index: -1;
+    }
+    &-carousel img{
+        width: 100px;
+        padding: 8px;
+        transition: 0.5s;
+    }
+    &-carousel img:hover{
+        transform: scale(1.1);
+    }
+}
+
+.owl-theme .owl-nav {
+    position: relative;
+    padding: 0px 3px 0 4px;
+    top: -142px;
+    display: flex;
+    justify-content: space-between;
+}

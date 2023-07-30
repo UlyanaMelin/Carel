@@ -1,0 +1,56 @@
+@import "base";
+
+.spare_parts {
+    position: relative;
+    margin-top: 460px;
+    &-triangle {
+        position: absolute;
+        left: 0%;
+        top: -72%;
+        width: 18%;
+        z-index: -3;
+    }
+    &-rect {
+        position: absolute;
+        top: 72%;
+        left: -3%;
+        z-index: -1;
+    }
+    &-stripe {
+        background: $color_gr;
+        width: 117%;
+        height: 31%;
+        position: absolute;
+        transform: rotate(11deg);
+        top: 79%;
+        left: -3%;   
+    }
+    &-wrapper {
+        margin-top: 275px;
+        &-stripe {
+            transform: rotate(11deg);
+            &-text {
+                transform: rotate(-11deg);
+                position: relative;
+                font-weight: $bold_big;
+                &-icon_1 {
+                   position: absolute;
+                   left: -75px;
+                    top: -8px;
+                }
+                &-icon_2 {
+                    position: absolute;
+                    left: -75px;
+                    top: 0px;
+                }
+                &-icon_3 {
+                    position: absolute;
+                    left: -75px;
+                    top: -2px;
+                }
+               
+            }
+            
+        }
+    }
+}

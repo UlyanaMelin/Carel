@@ -1,0 +1,149 @@
+//Переменные цветов
+$color_rd: #FF0000;
+$color_wh: #fff;
+$color_bl: #2e2e2e;
+$color_gr: #EBEBEB;
+
+//Переменные шрифтов
+$font_main: 'Circe';
+$size_min: 15px;
+$size_norm: 22px;
+$size_big: 36px;
+$size_max: 50px;
+$line_min: 18px;
+$line_norm: 25px;
+$line_big: 42px;
+$line_max: 70px;
+$bold_min: 300;
+$bold_norm: 400;
+$bold_big: 600;
+$bold_max: 800;
+
+html {
+    overflow: auto;
+}
+
+body {
+    font-family: $font_main;
+    color: $color_bl;
+    overflow: hidden;
+    // height: auto;
+    // position: relative;
+   }
+
+p   {
+    font-size: $size_norm+2px;
+    line-height: $line_norm+10px;
+}
+
+h1 {
+    font-weight: $bold_big;
+    color: $color_rd;
+    font-size: $size_big;
+    line-height: $line_max;
+    }
+
+h2 {
+    font-weight: $bold_max;
+    color: $color_rd;
+    font-size: $size_max;
+    line-height: $line_max;
+    }
+h3 {
+    font-weight: $bold_max;
+    color: $color_bl;
+    font-size: $size_min+3px;
+    line-height: $line_norm; 
+}
+h4 {
+    font-weight: $bold_big;
+    color: $color_rd;
+    font-size: $size_big;
+    line-height: $line_big;  
+}
+.carel-button {
+    
+    transform: skew(-20deg);
+    border-radius: 4px;
+    border: none;
+    
+    &-text {
+        font-size: $size_norm;
+        font-weight: $bold_big;
+        text-decoration: none;
+        transform:skew(20deg);
+    }
+}
+a:focus, a:hover, a:active {
+    color: $color_rd;
+}
+
+.mt-6 {
+    margin-top: ($spacer * 5) !important;
+}
+
+.mb-6 {
+    margin-bottom: ($spacer * 5) !important;
+}
+.mt-7 {
+    margin-top: ($spacer * 8) !important;
+}
+
+.mb-7 {
+    margin-bottom: ($spacer * 8) !important;
+}
+.ps-6 {
+    padding-left: ($spacer * 6) !important;
+}
+.pe-6 {
+    padding-right: ($spacer * 6) !important;
+}
+
+
+.triangle {
+    display: none;
+    position: fixed;
+    bottom: 7%;
+    right: 8%;
+    z-index: 98;
+    background-color: $color_rd;
+   
+    img {
+        position: fixed;
+        transform: rotate(43deg);
+        height: 54%;
+        width: 52%;
+        top: 12px;
+        right: 12px;
+        z-index: 99;
+        
+    }
+}
+.triangle:before, .triangle:after {
+    content: '';
+    position: absolute;
+    background-color: inherit;
+    
+    
+    
+}
+.triangle, .triangle:before, .triangle:after {
+    width:  2em;
+    height: 2em;
+    border-top-right-radius: 30%;
+    
+    
+}
+
+.triangle {
+    transform: rotate(-60deg) skewX(-30deg) scale(1,.866);
+    
+}
+.triangle:before {
+    transform: rotate(-135deg) skewX(-45deg) scale(1.414,.707) translate(0,-50%);
+}
+.triangle:after {
+    transform: rotate(135deg) skewY(-45deg) scale(.707,1.414) translate(50%);
+}
+
+
